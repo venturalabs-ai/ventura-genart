@@ -1,28 +1,38 @@
 # VenturaGenArt
 
-[![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Status](https://img.shields.io/badge/status-incubation-orange)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura-genart)
 
-**Arte generativa com IA** — imagens, estilos e edição guiada por texto.
+**Laboratório de arte generativa com IA para geração, edição e experimentação visual.**
 
-Complementa [ventura-art](https://github.com/chamseddinehiddoud/ventura-art) (foco em vídeo).
+> Complementa [Ventura Art](https://github.com/venturalabs-ai/ventura-art), focado em workflows de vídeo.
 
-> Ecossistema **Ventura** · [Ventura Studio](https://github.com/chamseddinehiddoud/ventura-studio)
+## Maturidade
 
-## Funcionalidades
+**Incubation / experimental.** O projeto está em fase de arquitetura e prototipagem.
 
-- Geração por prompt
-- Estilos personalizados
-- Upscaling / edição guiada (planejado)
+## Escopo planejado
 
-## Stack planejada
+- geração por prompt;
+- estilos personalizados;
+- edição guiada por texto;
+- upscaling e pipelines de pós-processamento;
+- API para automação de geração.
 
-Python · PyTorch · Diffusers · FastAPI · Docker
+## Stack alvo
 
-## Status
+`Python` · `PyTorch` · `Diffusers` · `FastAPI` · `Docker`
 
-🔷 Scaffold inicial (2026-08-07).
+## Critérios para Beta
+
+- pipeline funcional com modelo documentado;
+- testes de integração;
+- CI bloqueante;
+- exemplos reproduzíveis;
+- limites e requisitos de hardware documentados;
+- release inicial.
 
 ## Licença
 
-MIT
+Consulte [LICENSE](LICENSE).
